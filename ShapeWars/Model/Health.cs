@@ -1,0 +1,31 @@
+﻿//   AptusLite - Shape Wars
+//   Copyright(C) 2021 - Brendan Price 
+//
+//   This program is free software: you can redistribute it and/or modify
+//   it under the terms of the GNU General Public License as published by
+//   the Free Software Foundation, either version 3 of the License, or
+//   (at your option) any later version.
+//
+//   This program is distributed in the hope that it will be useful,
+//   but WITHOUT ANY WARRANTY; without even the implied warranty of
+//   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+//   GNU General Public License for more details.
+//
+//   You should have received a copy of the GNU General Public License
+//   along with this program. If not, see<https://www.gnu.org/licenses/>.
+namespace ShapesAndMirrors.Model
+{
+    public class Health
+    {
+        public const int MAX_HEALTH = 100;
+        public const int MIN_HEALTH = 0;
+        public int Current { get; set; } 
+
+        public Health(int health = 10) => Current = health;
+
+        public void SetHealth(int health)
+        {
+            Current = health;
+        }
+    }
+}

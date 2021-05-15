@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31129.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShapeWars", "ShapeWars.csproj", "{8D099657-72EB-464F-A71B-6661C558B2CC}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "ShapeWarsSetup", "..\ShapeWarsSetup\ShapeWarsSetup.vdproj", "{4D5A9CFD-FF90-451F-9D09-156F29742627}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8D099657-72EB-464F-A71B-6661C558B2CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D099657-72EB-464F-A71B-6661C558B2CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D099657-72EB-464F-A71B-6661C558B2CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D099657-72EB-464F-A71B-6661C558B2CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D5A9CFD-FF90-451F-9D09-156F29742627}.Debug|Any CPU.ActiveCfg = Debug
+		{4D5A9CFD-FF90-451F-9D09-156F29742627}.Release|Any CPU.ActiveCfg = Release
+		{4D5A9CFD-FF90-451F-9D09-156F29742627}.Release|Any CPU.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {65270634-479B-4F1D-AFB3-E11FBBC88119}
+	EndGlobalSection
+EndGlobal
